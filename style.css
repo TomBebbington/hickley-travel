@@ -80,3 +80,7 @@ ul {
 #return:before {
 	content: "< ";
 }
+footer {
+	text-align: center;
+	font-weight: bold;
+}
