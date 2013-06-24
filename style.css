@@ -93,13 +93,6 @@ ul {
 	margin-right: auto;
 	table-layout: fixed;
 }
-.focused {
-	float: right;
-	width: 300px;
-	max-width: 30%;
-	border: 2px solid white;
-	border-radius: 5px;
-}
 article img {
 	float: right;
 	width: 200px;
