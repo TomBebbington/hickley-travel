@@ -22,7 +22,10 @@ header h2 {
 }
 #logo {
 	display: inline;
-	font-size: 1.3em;
+}
+#logo img {
+	width: 180px;
+	max-width: 20%;
 }
 a {
 	color: white;
@@ -70,6 +73,7 @@ nav ul li img.fancy {
 nav ul li {
 	display: table-cell;
 	font-size: 1.4em;
+	font-weight: bolder;
 	width: 30%;
 }
 ul {
@@ -85,6 +89,13 @@ ul {
 	max-width: 30%;
 	border: 2px solid white;
 	border-radius: 5px;
+}
+article img {
+	float: right;
+	width: 200px;
+	max-width: 25%;
+	border: 1px solid white;
+	border-radius: 4px;
 }
 #return {
 	position: absolute;
