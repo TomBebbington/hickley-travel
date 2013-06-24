@@ -74,6 +74,7 @@ ul {
 #return {
 	position: absolute;
 	font-size: 0.9em;
+	font-weight: bold;
 	bottom: 0px;
 	left: 0px;
 }
