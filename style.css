@@ -76,8 +76,8 @@ ul {
 	position: absolute;
 	font-size: 0.9em;
 	font-weight: bold;
+	float: left;
 	bottom: 0px;
-	left: 0px;
 }
 #return:before {
 	content: "< ";
