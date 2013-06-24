@@ -73,11 +73,12 @@ nav ul li img {
 	margin-left: auto;
 	margin-right: auto;
 }
-nav ul li img.fancy {
+.fancy {
 	border: 2px solid white;
 	border-radius: 9px;
 	height: 10em;
 	max-width: 15em;
+	max-height: 10em;
 }
 nav ul li {
 	display: table-cell;
