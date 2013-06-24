@@ -48,13 +48,12 @@ article dl dd {
 	text-align: right;
 }
 nav ul li img {
-	float: left;
-	height: 80px;
+	height: 100px;
+	margin-left: 30px;
 }
 nav ul li {
-	float: right;
-	display: inline;
-	height: 80px;
+	display: block;
+	font-size: 30px;
 }
 ul {
 	list-style-type: none;
