@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
-
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
 body {
 	padding: 16px;
 	margin: 0px;
@@ -8,6 +11,10 @@ body {
 	color: white;
 	text-align: center;
 	position: relative;
+	background-image: -webkit-linear-gradient(top, rgb(36,74,171), rgb(66,104,201)); 
+	background-image: -moz-linear-gradient(top, rgb(36,74,171), rgb(66,104,201));
+	background-image: -ms-linear-gradient(top, rgb(36,74,171), rgb(66,104,201));
+	background-image: -o-linear-gradient(top, rgb(36,74,171), rgb(66,104,201));
 }
 header {
 	text-decoration: underline;
@@ -58,8 +65,8 @@ article dl dd {
 	text-align: right;
 }
 nav ul li img {
-	height: 7em;
 	max-width: 10em;
+	max-height: 7em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
