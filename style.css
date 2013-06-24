@@ -54,7 +54,7 @@ article dl {
 article dl dt {
 	float: left;
 	clear: left;
-	width: 40%;
+	min-width: 40%;
 	text-align: right;
 	font-weight: bold;
 }
