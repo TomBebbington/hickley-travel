@@ -16,18 +16,17 @@ body {
 	background-image: -ms-linear-gradient(top, rgb(36,74,171), rgb(66,104,201));
 	background-image: -o-linear-gradient(top, rgb(36,74,171), rgb(66,104,201));
 }
+h2 {
+	font-size: 1.2em;
+}
 header {
 	text-decoration: underline;
 	font-size: 1.3em;
 	margin-bottom: -1em;
 	overflow:visible;
 	word-wrap:break-word;
-}
-header h2 {
-	font-size: 1.2em;
-}
-h1, h2, h3, h4, h5, h6 {
-	text-shadow: 0px 0px 5px #000;
+	color: white;
+	text-shadow: 0px 0px 4px #ccc;
 }
 #logo {
 	display: inline;
@@ -43,9 +42,6 @@ article, section {
 	z-index: 3;
 }
 article dl {
-	background-color: rgba(255, 255, 255, 0.2);
-	border: 3px solid #ccc;
-	border-radius: 7px;
 	padding: 0.5em;
 	max-width: 600px;
 	margin-left: auto;
@@ -93,12 +89,25 @@ ul {
 	margin-right: auto;
 	table-layout: fixed;
 }
+article {
+	padding: 8px;
+	background-color: white;
+	color: rgb(18,37,85);
+	border: 4px solid #cef;
+	border-radius: 15px;
+	position: relative;
+	left: -4px;
+	width: calc(100%-4px);
+	margin-left: auto;
+	margin-right:auto;
+}
 article img {
 	float: right;
 	width: 200px;
 	max-width: 25%;
-	border: 1px solid white;
+	border: 2.1px solid #129;
 	border-radius: 4px;
+	background-color: #eee;
 }
 #return {
 	position: absolute;
@@ -115,15 +124,8 @@ footer {
 	font-weight: bold;
 }
 .left {
-	position: absolute;
-	left: 0px;
+	float: left;
 }
 .right {
-	position: absolute;
-	right: 0px;
-}
-article {
-	width: calc(100% - 400px);
-	margin-left: auto;
-	margin-right: auto;
+	float: right;
 }
